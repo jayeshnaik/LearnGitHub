@@ -20,6 +20,8 @@ import edu.wpi.first.wpilibj.Timer;
  * be much more difficult under this system. Use IterativeRobot or Command-Based
  * instead if you're new.
  */
+
+
 public class Robot extends SampleRobot {
 	RobotDrive myRobot = new RobotDrive(0, 1); // class that handles basic drive
 												// operations
@@ -27,7 +29,7 @@ public class Robot extends SampleRobot {
 	Joystick rightStick = new Joystick(1); // set to ID 2 in DriverStation
 
 	public Robot() {
-		myRobot.setExpiration(0.1);
+		myRobot.setExpiration(0.2);
 
 	}
 
