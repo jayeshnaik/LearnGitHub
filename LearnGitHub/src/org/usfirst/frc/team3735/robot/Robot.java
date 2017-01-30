@@ -28,6 +28,7 @@ public class Robot extends SampleRobot {
 
 	public Robot() {
 		myRobot.setExpiration(0.1);
+
 	}
 
 	/**
